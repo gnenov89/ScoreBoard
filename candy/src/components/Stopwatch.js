@@ -1,21 +1,20 @@
-import React,{Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class Stopwatch extends Component {
+  state = {
+    running: false,
+    elapsedTime: 0,
+    previousTime: 0,
+  };
 
-state= {
-running: false,
-previousTime:0,
-elapsedTime:0,
-};
-
-componentDidMount= () => {
+  componentDidMount= () => {
     this.interval = setInterval(this.onTick, 100);
   }
 
   componentWillUnmount= () => {
     clearInterval(this.interval);
   }
-
 
   onTick= () => {
     if (this.state.running) {
@@ -46,7 +45,6 @@ componentDidMount= () => {
     });
   }
 
-
   render= () => {
     var seconds = Math.floor(this.state.elapsedTime / 1000);
     return (
@@ -62,8 +60,4 @@ componentDidMount= () => {
       </div>
     );
   }
-
-
-//   End of Stopwatch compoment
-
-}
+};
