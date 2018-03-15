@@ -1,6 +1,6 @@
 import React,{Component, PropTypes} from 'react';
 
-export default class Stopwatch extends Compoment {
+export default class Stopwatch extends Component {
 
 state= {
 running: false,
