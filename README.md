@@ -7,7 +7,7 @@ Redux
 Webpack
 Prerequisites
 
-make sure you have npm in your computer
+Make sure you have npm in your computer!
 
 Getting Started
 
