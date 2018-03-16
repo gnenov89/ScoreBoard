@@ -4,16 +4,17 @@
 # Features
 React.js
 Redux
-Babel
 Webpack
-Firebase
 Prerequisites
+
 make sure you have npm in your computer
+
 Getting Started
+
 The easiest way to get started is to clone the repository:
 
 # Change directory
-cd React-Scoreboard
+cd scoreboard/candy
 
 # Install NPM dependencies
 npm install
