@@ -1,8 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Scoreboard from './containers/Scoreboard';
-import registerServiceWorker from './registerServiceWorker';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import PlayerReducer from '../src/reducers/player';
+import Scoreboard from '../src/containers/Scoreboard';
+import './App.css';
 
-ReactDOM.render(<Scoreboard />, document.getElementById('root'));
-registerServiceWorker();
+const store = createStore(
+  PlayerReducer,
+  // Bind to react dev tools (Chrome or Firefox)
+  window.devToolsExtension && window.devToolsExtension()
+);
+
+render(
+  <Provider store={store}>
+    <Scoreboard />
+  </Provider>,
+  document.getElementById('root')
+);

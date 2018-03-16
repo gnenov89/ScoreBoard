@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
 export default class AddPlayerForm extends Component {
   static propTypes = {
     addPlayer: PropTypes.func.isRequired,

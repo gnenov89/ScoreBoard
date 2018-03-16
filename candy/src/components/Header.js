@@ -1,7 +1,7 @@
-mport React, { PropTypes } from 'react';
+import React from 'react';
 import Stats from './Stats';
 import Stopwatch from './Stopwatch';
-
+import PropTypes from 'prop-types';
 const Header = props => {
   return (
     <div className="header">
