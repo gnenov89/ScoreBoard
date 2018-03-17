@@ -1,6 +1,6 @@
 
 # React-Scoreboard
-
+ 
 # Features
 React.js
 Redux
@@ -9,7 +9,7 @@ Prerequisites
 
 Make sure you have npm in your computer!
 
-Getting Started
+# Getting Started 
 
 The easiest way to get started is to clone the repository:
 
@@ -24,8 +24,10 @@ npm run build
 
 
 
-License
-The MIT License (MIT)
+
+# License 
+
+# The MIT License 
 
 Copyright (c) 2018 Georgi Nenov
 
