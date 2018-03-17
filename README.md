@@ -21,6 +21,9 @@ Make sure you have npm in your computer!
  
  Step3.  `npm install`
 
+# Run on localhost
+
+Step4. `yarn/npm start`
 
 
 # License 
