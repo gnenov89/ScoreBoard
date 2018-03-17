@@ -15,7 +15,7 @@ Make sure you have npm in your computer!
  
  # Change to root folder 
  
- Step2.  cd scoreboard/candy
+ Step2.  `cd scoreboard/candy`
  
  # Install Npm Dependecies 
  
