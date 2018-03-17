@@ -11,17 +11,9 @@ Make sure you have npm in your computer!
 
 # Getting Started 
 
-The easiest way to get started is to clone the repository:
-
-# Change directory
-cd scoreboard/candy
-
-# Install NPM dependencies
-npm install
-
-# Simply build your app to dist
-npm run build
-
+ Step1.  The easiest way to get started is to clone the repository:
+ Step2.  cd scoreboard/candy
+ Step3. Install Npm Dependencies `npm install`
 
 
 
