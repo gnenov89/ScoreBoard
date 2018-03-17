@@ -12,8 +12,14 @@ Make sure you have npm in your computer!
 # Getting Started 
 
  Step1.  The easiest way to get started is to clone the repository:
+ 
+ # Change to root folder 
+ 
  Step2.  cd scoreboard/candy
- Step3. Install Npm Dependencies `npm install`
+ 
+ # Install Npm Dependecies 
+ 
+ Step3.  `npm install`
 
 
 
